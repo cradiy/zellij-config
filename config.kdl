@@ -256,6 +256,12 @@ load_plugins {
 //
 // pane_frames true
 
+ui {
+    pane_frames {
+        hide_session_name true
+    }
+}
+
 // Toggle between having Zellij lay out panes according to a predefined set of layouts whenever possible
 // Options:
 //   - true (default)
